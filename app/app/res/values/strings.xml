@@ -1,0 +1,174 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <string name="title_activity_connection">Connection</string>
+    <string name="title_activity_ide">IDE</string>
+    <string name="title_activity_operation">Operation</string>
+    <string name="title_activity_hacks">Hacks</string>
+    <string name="title_activity_fd">Face Detection</string>
+    <string name="title_activity_legs">Leg Control</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Sensor Strings -->
+    <string name="button_sensors">Open Sensors</string>
+    <string name="accelerometer_description">Accelerometer</string>
+    <string name="x_axis_name">X Axis</string>
+    <string name="y_axis_name">Y Axis</string>
+    <string name="z_axis_name">Z Axis</string>
+    <string name="x_axis_data">x data</string>
+    <string name="y_axis_data">y data</string>
+    <string name="z_axis_data">z data</string>
+    <string name="sensor_title_page_name">Sensors</string>
+    <string name="magnetometer_description">Magnetometer</string>
+    <string name="acc_units">m/2^2</string>
+    <string name="mag_units">uT</string>
+    <string name="gyroscope_description">Gyroscope</string>
+    <string name="rot_units">rad/s</string>
+    <string name="rel_hum_description">Relative Humidity</string>
+    <string name="imu_description">Inertial Measurement Unit</string>
+    <string name="other_sensors_description">Other Sensors</string>
+    <string name="hum_dat">hum dat</string>
+    <string name="no_data">No data</string>
+    <string name="temp_description">Ambient Temperature</string>
+    <string name="light_description">Light</string>
+    <string name="pressure_description">Pressure</string>
+    <string name="proximity_description">Proximity</string>
+    <string name="hum_units">%</string>
+    <string name="amb_temp_units">°C</string>
+    <string name="light_units">lx</string>
+    <string name="pressure_units">mbar</string>
+    <string name="proximity_units">cm</string>
+
+
+    <!-- Camera Strings -->
+    <string name="open_camera_button">Open Cameras</string>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">PhoneBot needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+
+    <!--BLE Strings-->
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="label_device_name">Device Name:</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- BLE Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_refresh">Refresh</string>
+
+    <!-- InteractiveLegActivity Strings-->
+    <string name="leg_decrement_name">-</string>
+    <string name="leg_increment_name">+</string>
+
+    <string name="leg_value_description">Value: </string>
+
+    <string name="phonebot_not_connected_title">PhoneBot is not connected.</string>
+    <string name="phonebot_not_connected_message">Would you like to open the Bluetooth Manager to
+        connect to a PhoneBot?</string>
+    <string name="phonebot_not_connected_accept">Open</string>
+    <string name="phonebot_not_connected_cancel">Cancel</string>
+
+</resources>

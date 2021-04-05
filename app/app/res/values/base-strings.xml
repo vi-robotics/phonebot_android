@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhoneBot</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This app is designed to control and aid in programming PhoneBots.
+
+
+        ]]>
+    </string>
+</resources>
